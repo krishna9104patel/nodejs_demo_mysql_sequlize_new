@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
       imageSrc: DataTypes.STRING,
       productId: DataTypes.INTEGER,
     },
-    {
+    {                    
       sequelize,
       modelName: "ProductImages",
     }

@@ -51,3 +51,12 @@ module.exports = {
 => npx sequelize-cli db:migrate
 
 Let's started create APIs for product and productimages tables
+
+13. create migration file for add slug column in product table
+=> npx sequelize-cli migration:generate --name add-slug-to-product
+
+14. create migration file for update name of imageSrc to imageName and add status column with defautl value 1
+=> npx sequelize-cli migration:generate --name update-productimages-table
+
+15. Now run the migration for udpate mysql database
+=> npx sequelize-cli db:migrate
