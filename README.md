@@ -49,3 +49,5 @@ module.exports = {
 
 12. create table using migration command
 => npx sequelize-cli db:migrate
+
+Let's started create APIs for product and productimages tables
